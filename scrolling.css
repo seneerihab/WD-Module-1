@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1619441207978-3d326c46e2c9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+  animation: scrollimg ease-in-out 10s infinite;
+}
+
+@keyframes scrollimg {
+  20% {
+    background-image: url(https://img.freepik.com/free-photo/beautiful-view-greenery-bridge-forest-perfect-background_181624-17827.jpg);
+  }
+  40% {
+    background-image: url(https://media.istockphoto.com/id/1455772765/video/waterfall-with-fresh-water-in-the-romantic-and-idyllic-tropical-jungle-rainforest-blue.jpg?s=640x640&k=20&c=dQALV8o9hTp5iaGe6F_HhGB7AI0-kKwcNoHvGfKxeQ0=);
+  }
+  60% {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/049/855/259/non_2x/nature-background-high-resolution-wallpaper-for-a-serene-and-stunning-view-photo.jpg);
+  }
+  80% {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/057/047/718/small_2x/beautiful-natural-wallpaper-photo.jpg);
+  }
+}
