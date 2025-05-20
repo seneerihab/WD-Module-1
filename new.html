@@ -3,8 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Practicing HTML/CSS</title>
+    <style>
+      .box1,
+      .box3 {
+        height: 200px;
+        background-color: aqua;
+        border: 5px solid black;
+        width: 200px;
+        margin: 10px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: 50px;
+        border-radius: 50%;
+      }
+      .box2,
+      .box4 {
+        height: 200px;
+        background-color: rgb(10, 180, 16);
+        border: 5px solid black;
+        width: 200px;
+        margin: 10px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: 50px;
+        border-radius: 50%;
+      }
+      .main1 {
+        background-color: yellow;
+        display: flex;
+        width: 1200px;
+        border-radius: 5px;
+        border: 0.5px solid black;
+        margin: 10px;
+      }
+      .main2 {
+        background-color: rgb(165, 147, 219);
+        display: flex;
+        width: 1200px;
+        border-radius: 5px;
+        border: 0.5px solid black;
+        margin: 5px;
+        margin-left: 10px;
+      }
+
+      label {
+        height: 80px;
+        width: 80px;
+        background-color: red;
+        font-size: 25px;
+        color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        border-radius: 20px;
+        padding: 20px;
+      }
+
+      #label-container {
+        display: flex;
+      }
+
+      #heading {
+        display: flex;
+      }
+      H1 {
+        background-color: brown;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+      }
+      p {
+        background-color: beige;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 50px;
+        height: 200px;
+        width: 200px;
+        border-radius: 25px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div id="heading">
+      <h1>Box Model</h1>
+      <h1>Box Model</h1>
+      <h1>Box Model</h1>
+    </div>
+    <div class="main1">
+      <div class="box1">Box 1</div>
+      <div class="box2">Box 2</div>
+      <div class="box3">Box 3</div>
+      <div class="box4">Box 4</div>
+    </div>
+    <div class="main2">
+      <p>PARA1</p>
+      <p>PARA1</p>
+      <p>PARA1</p>
+    </div>
+    <div id="label-container">
+      <label> 1 </label>
+      <label> 2 </label>
+      <label> 3 </label>
+    </div>
+  </body>
 </html>
